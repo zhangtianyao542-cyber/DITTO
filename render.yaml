@@ -1,0 +1,10 @@
+﻿services:
+  - type: web
+    name: ditto
+    runtime: python
+    plan: free
+    buildCommand: echo no build
+    startCommand: python server.py $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.0

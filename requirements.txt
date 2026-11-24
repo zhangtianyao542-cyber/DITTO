@@ -1,0 +1,1 @@
+﻿# no third-party packages: the server is pure Python standard library
